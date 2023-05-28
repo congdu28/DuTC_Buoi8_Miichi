@@ -3,26 +3,41 @@
 <div class="container form-control mt-3">
     <h1 class="text-center mt-3">DANH SÁCH SẢN PHẨM</h1>
     <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action " aria-current="true">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
-    </div>
-    <p class="mb-1">Sản phẩm đén từ Samsung</p>
-    
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">
-  <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
-    </div>
-    <p class="mb-1">Sản phẩm đén từ Samsung</p>
-   
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">
-  <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
-    </div>
-    <p class="mb-1">Sản phẩm đén từ Samsung</p>
-    
-  </a>
+        <div>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
+            </div>
+            <p class="mb-1">Sản phẩm đén từ Samsung</p> 
+          </a>
+            <div class="m-3">
+              <a href="#" type="button" class="btn btn-danger" style="width: 100;">Xóa</a>
+              <a href="{{URL::to('update-product')}}" style="width: 100;" type="button" class="btn btn-warning">Sửa</a>
+            </div>
+      </div>
+        <div>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
+            </div>
+            <p class="mb-1">Sản phẩm đén từ Samsung</p> 
+          </a>
+            <div class="m-3">
+              <a href="#" type="button" class="btn btn-danger" style="width: 100;">Xóa</a>
+              <a href="{{URL::to('update-product')}}" style="width: 100;" type="button" class="btn btn-warning">Sửa</a>
+            </div>
+      </div>
+      <div>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Samsung Galaxy S23 Ultra</h5>
+            </div>
+            <p class="mb-1">Sản phẩm đén từ Samsung</p> 
+          </a>
+            <div class="m-3">
+              <a href="#" type="button" class="btn btn-danger" style="width: 100;">Xóa</a>
+              <a href="{{URL::to('update-product')}}" style="width: 100;" type="button" class="btn btn-warning">Sửa</a>
+            </div>
+      </div>
 </div>
 </div>
